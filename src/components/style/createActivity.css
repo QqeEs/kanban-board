@@ -1,0 +1,22 @@
+.button { 
+   border-radius: 24px;
+   width: 500px;
+   height: 86px;
+   font-size: 34px;
+   padding: 12px;
+   color: white;
+   transition: transform 0.2s ease;
+   transition: 0.39s;
+
+   border: 8px solid rgb(255, 255, 255);
+   background-color: rgb(93, 174, 209);
+}
+
+.button:active {
+   transform: scale(0.96);
+}
+
+.button:hover {
+   background-color: rgb(87, 153, 182);
+   font-size: 44px;
+}

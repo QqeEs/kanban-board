@@ -1,0 +1,25 @@
+.sections {
+    display: flex;
+    gap: 120px;
+}
+
+.section_header {
+    width: 522px;
+    border-radius: 22px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.deleteActivity {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    bottom: 1px;
+    right: 1px;
+    top: 1px;
+    transition: 1.5s;
+}
+
+.deleteActivity:hover {
+    width: 22px;
+    box-shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.35);
+}

@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 86px;
+    text-transform: uppercase;
+    font-size: 34px;
+    color: white;
+
+    border-radius: 18px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.header_count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: rgb(65, 137, 142);
+    width: 30px;
+}
